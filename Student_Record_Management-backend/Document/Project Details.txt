@@ -1,0 +1,29 @@
+Student Record Management
+
+Table Name:
+students
+Fields:
+•	id (int, PK)
+•	name (String)
+•	email (String)
+•	course (String)
+•	marks (int)
+•	age (int)
+•	gender (String)
+•	address (String)
+•	mobileNumber (long)
+•	admissionDate (LocalDate)
+Functionality:
+•	Add a new student → POST /students
+•	View all students → GET /students
+•	View a single student by ID → GET /students/{id}
+•	Update student details → PUT /students/{id}
+•	Delete a student → DELETE /students/{id}
+🔧 Purpose:
+Perform CRUD operations on student records using Spring Boot, Spring Data JPA (Hibernate), and REST API endpoints instead of manual Scanner input.
+Technology Stack:
+•	Spring Boot
+•	Spring Web
+•	Spring Data JPA
+•	MySQL Database
+•	Postman (for testing REST APIs)
